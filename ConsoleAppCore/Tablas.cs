@@ -1,9 +1,8 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Runtime.Serialization;
-using Newtonsoft.Json;
 
 namespace ConsoleAppCore
 {
@@ -14,7 +13,7 @@ namespace ConsoleAppCore
     }
 
     [Table("Clientes")]
-    public class Clientes: Entidad
+    public class Clientes : Entidad
     {
         public String PrimerNombre { get; set; }
         public String SegundoNombre { get; set; }
@@ -44,7 +43,7 @@ namespace ConsoleAppCore
     }
 
     [Table("Documentos")]
-    public class Documentos: Entidad
+    public class Documentos : Entidad
     {
         public Int64 NroDocumento { get; set; }
         public string Nacionalidad { get; set; }
@@ -60,16 +59,16 @@ namespace ConsoleAppCore
     }
 
     [Table("TipoDocumentos")]
-    public class TipoDocumentos: Entidad
+    public class TipoDocumentos : Entidad
     {
         public string TipoDocumento { get; set; }
         public string Descripcion { get; set; }
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Prioridad { get; set; }
     }
 
     [Table("CorreoElectronicos")]
-    public class CorreoElectronicos: Entidad
+    public class CorreoElectronicos : Entidad
     {
         [Required(ErrorMessage = "Este campo es obligatorio."), DataType(DataType.EmailAddress),
             RegularExpression(@"^([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$")]
@@ -82,7 +81,7 @@ namespace ConsoleAppCore
     }
 
     [Table("TipoCorreos")]
-    public class TipoCorreos: Entidad
+    public class TipoCorreos : Entidad
     {
         public string TipoCorreo { get; set; }
     }
