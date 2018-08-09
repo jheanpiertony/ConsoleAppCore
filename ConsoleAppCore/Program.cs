@@ -18,7 +18,7 @@ namespace ConsoleAppCore
             {
                 var consulta = context.Clientes
                     .Include(dc => dc.Documentos)
-                    .ThenInclude(tp => tp.TipoDocumentos);
+                    .ThenInclude(tp => tp.TipoDocumentos).FirstOrDefault();
 
                 Console.WriteLine("Listo!");
                 Console.ReadLine();
