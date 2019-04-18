@@ -53,6 +53,7 @@
             //objGenericPropertyFinder.PrintTModelPropertyAndValue(objClass1);
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hello World! pc casa");
+            Console.WriteLine("Hello World! rama Pcpersonal");
             Console.ReadLine();
             // aca en pc personal
 
