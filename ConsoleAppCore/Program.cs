@@ -65,6 +65,7 @@
             //Trabajando en la rama PcPortatil
 
             //Trabajando en la linea 64 desde PcPersonal y PcPortatil Combinadas
+            //Trabajando en la linea 68 desde PcPortatil
 
 
             Console.ReadLine();
