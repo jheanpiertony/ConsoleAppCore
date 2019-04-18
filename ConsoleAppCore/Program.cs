@@ -51,8 +51,7 @@
             ////Passing Class Object to GenericPropertyFinder Class
             //GenericPropertyFinder<class1> objGenericPropertyFinder = new GenericPropertyFinder<class1>();
             //objGenericPropertyFinder.PrintTModelPropertyAndValue(objClass1);
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World! rama master");
+
             Console.ReadLine();
             // aca en pc personal
 
