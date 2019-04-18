@@ -52,6 +52,7 @@
             //GenericPropertyFinder<class1> objGenericPropertyFinder = new GenericPropertyFinder<class1>();
             //objGenericPropertyFinder.PrintTModelPropertyAndValue(objClass1);
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World! pc casa");
             Console.ReadLine();
             // aca en pc personal
 
