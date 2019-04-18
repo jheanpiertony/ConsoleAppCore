@@ -54,6 +54,9 @@
             
             //rama Pc Cambio 1
             //rama Pc Cambio 2
+            //rama PcPortatil Cambio 1
+            //rama PcPortatil Cambio 2
+            //rama PcPortatil Cambio 3
             
             Console.ReadLine();
             // aca en pc personal
