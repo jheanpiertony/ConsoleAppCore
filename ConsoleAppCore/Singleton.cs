@@ -4,7 +4,7 @@
     using System.Collections.Generic;
     using System.Text;
     
-    //Cambio 1 en singleton rama PcPersonal para la rama PcPortatil
+    //Cambio 1 en singleton rama PcPersonal para la rama PcPortatil 
     class Singleton
     {
         private static Singleton instance;
