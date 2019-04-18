@@ -60,7 +60,7 @@
 
             //rama PcPortatil Cambio 1 para la Rama PcPersonal
 
-            //rama PcPersonal Cambio 1 para la Rama PcPortatil
+            //rama PcPersonal Cambio 1 para la Rama PcPortatil atencion: estoy modificando esta linea para rama PcPortatil
 
             Console.ReadLine();
             // aca en pc personal
